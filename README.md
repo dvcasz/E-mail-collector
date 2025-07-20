@@ -36,7 +36,23 @@ O script é um *crawler* que navega por páginas da web para encontrar e extrair
 
 ## Requisitos
 
-Para rodar o script, você precisa ter as seguintes bibliotecas instaladas:
+- Para rodar o script, você precisa ter as seguintes bibliotecas instaladas:
 
 ```bash
 pip install requests beautifulsoup4 lxml
+```
+
+---
+
+## Como Usar
+1. Clone ou baixe o script para a sua máquina.
+
+2. Abra um terminal na pasta onde o arquivo está localizado.
+
+3. Execute o script com o Python:
+```bash
+python email_collector.py
+```
+4. Quando solicitado, insira a URL completa (com http:// ou https://) de onde você deseja iniciar a coleta.
+
+5. O script começará a imprimir as páginas que está analisando e, em seguida, os e-mails encontrados. Para parar a execução a qualquer momento, pressione Ctrl+C.
